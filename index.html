@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="logo" aria-label="home">
+            <svg width="35" height="30" class="icon">
+              <use xlink:href="/assets/images/logo.svg#logo" />
+            </svg>
+          </a>
+          <div
+            id="nav-icon3"
+            class="mobile-nav-toggle"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <span class="visually-hidden">Menu</span>
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul aria-label="Primary" class="nav-list" role="list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Categories</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <div class="two-columns-div">
+            <div class="hero-image"></div>
+            <div class="two-each-columns">
+              <div class="big-font-column">
+                <h2 class="big-font">The Bright Future of Web 3.0?</h2>
+              </div>
+              <div class="cta-column">
+                <p>
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <button class="button">Read More</button>
+              </div>
+            </div>
+            <div class="new-list">
+              <h2>New</h2>
+              <div class="new-list-div">
+                <ul class="new-nav-list" role="list">
+                  <li>
+                    <a href="#">Hydrogen VS Electric Cars </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Will hydrogen-fueled cars ever catch up to EVs?</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="new-list-div">
+                <ul class="new-nav-list" role="list">
+                  <li>
+                    <a href="#"> The Downsides of AI Artistry </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >What are the possible adverse effects of on-demand AI
+                      image generation?</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="new-list-div | last-div">
+                <ul class="new-nav-list" role="list">
+                  <li>
+                    <a href="#"> Is VC Funding Drying Up? </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Private funding by VC firms is down 50% YOY. We take a
+                      look at what that means.</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="three-columns-section">
+        <div class="container">
+          <div class="each-column">
+            <div class="numbered-columns">
+              <img src="/assets/images/image-retro-pcs.jpg" alt="Retro PCs" />
+              <div class="numbered-columns-text">
+                <strong>Reviving Retro PCs</strong>
+                <p>What happens when old PCs are given modern upgrades?</p>
+              </div>
+            </div>
+          </div>
+          <div class="each-column">
+            <div class="numbered-columns">
+              <img
+                src="/assets/images/image-top-laptops.jpg"
+                alt="Top Laptops"
+              />
+              <div class="numbered-columns-text">
+                <strong>Top 10 Laptops of <span id="year">2022</span></strong>
+                <p>Our best picks for various needs and budgets.</p>
+              </div>
+            </div>
+          </div>
+          <div class="each-column">
+            <div class="numbered-columns">
+              <img
+                src="/assets/images/image-gaming-growth.jpg"
+                alt="Gaming Growth"
+              />
+              <div class="numbered-columns-text">
+                <strong>The Growth of Gaming</strong>
+                <p>How the pandemic has sparked fresh opportunities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ali</a>.
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
