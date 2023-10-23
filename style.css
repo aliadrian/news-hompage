@@ -217,7 +217,7 @@ p[data-width="wide"] {
   background-image: url("assets/images/image-web-3-mobile.jpg");
   width: 100%;
   height: clamp(360px, 42vw, 610px);
-  background-position: bottom center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: calc(var(--size-700) + var(--size-300));
@@ -315,6 +315,7 @@ p[data-width="wide"] {
 
 .numbered-columns > img {
   width: 25%;
+  object-fit: contain;
 }
 
 .numbered-columns-text {
@@ -485,11 +486,11 @@ p[data-width="wide"] {
     grid-template-columns: repeat(12, 1fr);
     justify-content: start;
     column-gap: var(--size-600);
-    row-gap: var(--size-800);
+    /* row-gap: var(--size-800); */
   }
 
   .hero-image {
-    background-image: url("assets/images/image-web-3-desktop.jpg");
+    background-image: url("assets/images/image-web-3-mobile.jpg");
     background-size: contain;
     margin-top: 0;
     grid-column: 1 / 9;
@@ -506,11 +507,12 @@ p[data-width="wide"] {
     display: flex;
     grid-column: 1/9;
     grid-row: 2/ 3;
-    gap: var(--size-400);
+    gap: var(--size-500);
+    align-items: end;
   }
 
   .big-font {
-    font-size: var(--size-800);
+    font-size: min(6vw, var(--size-800));
     font-weight: var(--fw-extra-bold);
     max-width: 9ch;
   }
@@ -535,7 +537,7 @@ p[data-width="wide"] {
   .new-list {
     grid-column: 9 / -1;
     grid-row: 1 / -1;
-    padding: var(--size-500);
+    padding: var(--size-400);
   }
 
   .new-list > h2 {
@@ -567,6 +569,8 @@ p[data-width="wide"] {
   .three-columns-section > .container {
     display: flex;
     justify-content: space-between;
+    gap: var(--size-400);
+    align-items: center;
   }
 
   .numbered-columns {
@@ -576,7 +580,9 @@ p[data-width="wide"] {
 
 @media (min-width: 751px) {
   .hero-image {
-    height: clamp(207px, 26.5vw, 389px);
+    height: clamp(350px, 26.5vw, 389px);
+    background-size: cover;
+    background-position: top;
   }
 
   .new-nav-list {
@@ -585,11 +591,14 @@ p[data-width="wide"] {
   }
 
   .two-columns-div {
-    grid-template-rows: clamp(270px, 10vw, 360px) clamp(305px, 10vw, 256px);
+    grid-template-rows: clamp(290px, 10vw, 360px) clamp(305px, 10vw, 256px);
   }
 }
 
 @media (min-width: 1024px) {
+  .hero-image {
+    background-image: url("assets/images/image-web-3-desktop.jpg");
+  }
   .two-columns-div {
     grid-template-rows: clamp(252px, 10vw, 360px) clamp(305px, 10vw, 256px);
   }
@@ -607,5 +616,9 @@ p[data-width="wide"] {
 @media (min-width: 1320px) {
   .new-nav-list {
     padding: var(--size-650) 0;
+  }
+
+  .two-columns-div {
+    row-gap: var(--size-800);
   }
 }
