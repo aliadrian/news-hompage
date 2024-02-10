@@ -26,7 +26,7 @@
 
 </div>
 
-This is a solution to the Room homepage https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl. <br>
+This is a solution to the [Room homepage] https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl. <br>
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 <h2>Links</h2>
