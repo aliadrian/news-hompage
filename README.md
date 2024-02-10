@@ -13,7 +13,7 @@
   <br>
 
   <div align="center">
-    <a href="(https://news-homepage-3.netlify.app/)">View Demo</a>
+    <a href="https://news-homepage-3.netlify.app/">View Demo</a>
   </div>
 
 </div>
