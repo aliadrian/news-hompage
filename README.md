@@ -59,7 +59,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.PNG)
+![](assets/images/desktop_screenshot.PNG)
 
 ## My process
 
