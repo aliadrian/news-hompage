@@ -30,7 +30,7 @@ This is a solution to the [Room homepage (https://www.frontendmentor.io/challeng
 
 <h2>Links</h2>
 
-- Solution URL: [Room homepage | Frontend Mentor](https://www.frontendmentor.io/solutions/news-homepage-using-grid-flex-and-custom-properties-1H6M2uRNZn)
+- Solution URL: [Room homepage | Frontend Mentor] https://www.frontendmentor.io/solutions/news-homepage-using-grid-flex-and-custom-properties-1H6M2uRNZn
 - Live Site URL: https://news-homepage-3.netlify.app/
 
 <br>
